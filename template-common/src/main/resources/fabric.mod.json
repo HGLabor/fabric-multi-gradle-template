@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "name": "Template-Common",
+  "id": "template-common",
+  "version": "${version}",
+  "description": "Template-Common",
+  "authors": [],
+  "icon": "assets/template-common/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "gg.norisk.template.common.TemplateCommon"
+      }
+    ]
+  },
+  "mixins": [
+    "template-common.mixins.json"
+  ],
+  "depends": {
+  }
+}

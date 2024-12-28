@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "name": "Template-Server",
+  "id": "template-server",
+  "version": "${version}",
+  "description": "Template-Server",
+  "authors": [],
+  "icon": "assets/template-server/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      {
+        "adapter": "kotlin",
+        "value": "gg.norisk.template.server.TemplateServer"
+      }
+    ]
+  },
+  "mixins": [
+    "template-server.mixins.json"
+  ],
+  "depends": {
+  }
+}

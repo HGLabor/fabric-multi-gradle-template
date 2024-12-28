@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "name": "Template-Client",
+  "id": "template-client",
+  "version": "${version}",
+  "description": "Template-Client",
+  "authors": [],
+  "icon": "assets/template-client/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "gg.norisk.template.client.TemplateClient"
+      }
+    ]
+  },
+  "mixins": [
+    "template-client.mixins.json"
+  ],
+  "depends": {
+  }
+}
